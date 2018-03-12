@@ -1,0 +1,160 @@
+body
+{
+	text-align: justify;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1::first-letter, h4::first-letter
+{
+    /*font-size: 150%;*/
+    color: #616161;
+}
+
+.emptyspace
+{
+	height: 50px;
+}
+
+.emptyspaceSmall
+{
+	height: 35px;
+}
+
+.centertext
+{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.centerimages
+{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.centerimages .media img
+{
+	max-width: 200px;
+	min-width: 200px;
+	max-height: 200px;
+	min-height: 200px;
+	object-fit: contain;
+}
+
+.zweispalten
+{
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	column-gap: 4em;
+	-webkit-column-gap: 4em;
+	-moz-column-gap: 4em;
+}
+
+.media-body
+{
+	padding-top: 1em;
+}
+
+.media img
+{
+	/*width: 150px;
+    height: 150px;*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
+	border: 10px solid black;
+	border-image: url('../img/borderBlack.png') 34% repeat;
+	max-width: 400px;
+	min-width: 400px;
+	max-height: 400px;
+	min-height: 400px;
+	margin-bottom: 2em;
+	object-fit: contain;
+}
+
+.mymedia-body
+{
+	padding-top: 1em;
+}
+
+.mymedia img
+{
+	/*width: 150px;
+    height: 150px;*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
+	border: 10px solid black;
+	border-image: url('../img/borderBlack.png') 34% repeat;
+	max-width: 400px;
+	min-width: 400px;
+	max-height: 400px;
+	min-height: 400px;
+	margin-bottom: 2em;
+	object-fit: contain;
+}
+
+.navbar-default .navbar-nav>.active>a
+{
+	color: black;
+	background-color: unset;
+}
+
+.navbar-default .navbar-nav>.active
+{
+	color: black;
+	background-color: #616161;
+}
+
+.navbar-default .navbar-nav>.active>a:hover
+{
+	background-color: rgba(0,0,0,0.2);
+}
+
+.navbar-default .navbar-nav>li>a:hover
+{
+	background-color: rgba(0,0,0,0.2);
+}
+
+BlueTheme
+{
+	background-color: #61c6e8;
+}
+
+GreenTheme
+{
+	background-color: #61e889;
+}
+
+RedTheme
+{
+	background-color: #e86161;
+}
+
+OrangeTheme
+{
+	background-color: #e8a661;
+}
+
+YellowTheme
+{
+	background-color: #e8e161;
+}
+
+LightgreenTheme
+{
+	background-color: #a9e861;
+}
+
+VioletTheme
+{
+	background-color: #b261e8;
+}
+
+PinkTheme
+{
+	background-color: #e861bd;
+}

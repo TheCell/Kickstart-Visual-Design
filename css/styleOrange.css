@@ -1,0 +1,20 @@
+h1::first-letter, h4::first-letter
+{
+    color: #e8a661;
+}
+
+.media img
+{
+	border-image: url('../img/borderOrange.png') 34% repeat;
+}
+
+.page-header
+{
+	border-color: #e8a661;
+}
+
+.navbar-default .navbar-nav>.active
+{
+	color: black;
+	background-color: #e8a661;
+}

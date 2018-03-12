@@ -1,0 +1,20 @@
+h1::first-letter, h4::first-letter
+{
+    color: #b261e8;
+}
+
+.media img
+{
+	border-image: url('../img/borderViolet.png') 34% repeat;
+}
+
+.page-header
+{
+	border-color: #b261e8;
+}
+
+.navbar-default .navbar-nav>.active
+{
+	color: black;
+	background-color: #b261e8;
+}

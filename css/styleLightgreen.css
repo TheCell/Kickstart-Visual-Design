@@ -1,0 +1,20 @@
+h1::first-letter, h4::first-letter
+{
+    color: #a9e861;
+}
+
+.media img
+{
+	border-image: url('../img/borderLightgreen.png') 34% repeat;
+}
+
+.page-header
+{
+	border-color: #a9e861;
+}
+
+.navbar-default .navbar-nav>.active
+{
+	color: black;
+	background-color: #a9e861;
+}
